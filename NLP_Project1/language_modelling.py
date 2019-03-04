@@ -261,10 +261,10 @@ class Modelling():
             if word == '<s>':
                 previous = word
             elif previous + " " + word not in bigram:
-                probability += math.log2(1 / (unigram[previous] + len(unigram.items())))
+                probability += math.log2(1 / (unigram[previous] + len(unigram)))
                 previous = word
             else:
-                probability += math.log2((bigram[previous + " " + word] + 1) / (unigram[previous] + len(unigram.items())))
+                probability += math.log2((bigram[previous + " " + word] + 1) / (unigram[previous] + len(unigram)))
                 previous = word
         print()
         print("\t\tBigram smoothing log probability =", probability)

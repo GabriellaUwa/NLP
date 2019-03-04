@@ -1,0 +1,68 @@
+Question 1:
+		Unique words in training corpus =  15031
+
+
+Question 2:
+		Total token in training corpus =  498474
+
+
+Question 3:
+		new-brown-test.txt
+		Percentage = 0.08040825143104006
+
+		new-learner-test.txt
+		Percentage = 0.06074154852780807
+
+Question 4:
+		new-brown-test.txt
+		Percentage = 0.2265174635469651
+
+		new-learner-test.txt
+		Percentage = 0.24844290657439447
+
+Question 5 & 6:
+
+<s> He was laughed off the screen . </s>
+
+		Unigram log probability = -64.86594292562941
+		Unigram perplexity = 147.78202494498612
+
+		Bigram log probability = 0.0
+		Bigram perplexity = cannot compute as probability is 0
+
+		Bigram smoothing log probability = -72.93025620609369
+		Bigram smoothing perplexity = 275.0141044324117
+
+<s> There was no compulsion behind them . </s>
+
+		Unigram log probability = -59.00702251167198
+		Unigram perplexity = 94.11389507774473
+
+		Bigram log probability = -36.42614031888745
+		Bigram perplexity = 16.533828523548188
+
+		Bigram smoothing log probability = -58.93122645395324
+		Bigram smoothing perplexity = 93.56610226591656
+
+<s> I look forward to hearing your reply . </s>
+
+		Unigram log probability = -84.63012364878018
+		Unigram perplexity = 352.8747435254266
+
+		Bigram log probability = 0.0
+		Bigram perplexity = cannot compute as probability is 0
+
+		Bigram smoothing log probability = -93.4932169533023
+		Bigram smoothing perplexity = 652.268295379401
+
+Question 7:
+
+new-brown-test.txt
+		Unigram perplexity = 320.1785803202881
+		Bigram perplexity = 21.70397754661539
+		Bigram perplexity = 2.986576327765703e+52
+
+new-learner-test.txt
+		Unigram perplexity = 348.7097569950318
+		Bigram perplexity = 35.03097322384013
+		Bigram perplexity = 1.5238859841126565e+95
